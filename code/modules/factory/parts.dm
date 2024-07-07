@@ -159,6 +159,15 @@ GLOBAL_LIST_INIT(pizza_recipe,  list(
 	. = ..()
 	recipe = GLOB.pizza_recipe
 
+/obj/item/factory_part/pizza/copper_pizza
+	name = "unfinished /"meatlovers/" pizza"
+	desc = "Wait, I dont think thats how you make pizza..."
+	result = /obj/item/reagent_containers/food/snacks/req_pizza/copper_pizza
+
+/obj/item/factory_part/pizza/copper_pizza/Initialize(mapload)
+	. = ..()
+	recipe = GLOB.pizza_recipe
+
 GLOBAL_LIST_INIT(plastique_recipe, list(
 	list(STEP_NEXT_MACHINE = FACTORY_MACHINE_CUTTER, STEP_ICON_STATE = "cutplate"),
 	list(STEP_NEXT_MACHINE = FACTORY_MACHINE_FLATTER, STEP_ICON_STATE = "hotplate"),
