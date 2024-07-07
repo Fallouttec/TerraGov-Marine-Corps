@@ -181,6 +181,7 @@
 	name = "box of rounded copper plates (Meatlovers Pizza)"
 	desc = "A box with round copper plates inside. Used to refill Unboxers. These will become 'Meatlovers Pizzas', once finished."
 	refill_type = /obj/item/factory_part/pizza/copper_pizza
+	refill_amount = 60
 
 /obj/item/factory_refill/plastique_refill
 	name = "box of rounded metal plates"
