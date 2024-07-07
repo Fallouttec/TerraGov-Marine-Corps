@@ -2253,6 +2253,11 @@ FACTORY
 	contains = list(/obj/item/factory_refill/pizza_refill)
 	cost = 290 //allows a one point profit if all pizzas are processed and sold back to ASRS
 
+/datum/supply_packs/factory/pizzarefill
+	name = "Nanotrasen \"Eat healthy!\" meatlovers pizza kit refill"
+	contains = list(/obj/item/factory_refill/pizza_refill/copper_pizza)
+	cost = 580 //allows a one point profit if all pizzas are processed and sold back to ASRS
+
 /datum/supply_packs/factory/smartgun_minigun_box_refill
 	name = "SG-85 ammo bin parts refill"
 	contains = list(/obj/item/factory_refill/smartgunner_minigun_box_refill)
