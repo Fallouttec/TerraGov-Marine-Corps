@@ -107,6 +107,14 @@
 	list_reagents = list(/datum/reagent/iron = 8)
 	tastes = list("metal" = 3, "one of your teeth cracking" = 1)
 
+/obj/item/reagent_containers/food/snacks/req_pizza/copper_pizza
+	name = "\improper TGMC PFC Jim 'meatlovers' pizza"
+	desc = "You think that is a pizza. You definitely shouldn't eat this, but you can sell this for a PROFIT! While it certainly looks like one, the first, active, primary, and only ingredient that went into it was a rounded copper plate. Maybe it'll taste better after it sat in the ASRS for a while? Oh well, time to sell it to some poor customer in space."
+	icon = 'icons/obj/items/food/pizzaspaghetti.dmi'
+	icon_state = "meatpizza"
+	list_reagents = list(/datum/reagent/copper = 8)
+	tastes = list("metal" = 3, "one of your teeth cracking" = 1)
+
 /obj/item/reagent_containers/food/snacks/mre_pack
 	name = "\improper generic MRE pack"
 	//trash = /obj/item/trash/TGMCtray
