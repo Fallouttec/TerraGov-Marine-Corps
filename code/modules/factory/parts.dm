@@ -160,7 +160,7 @@ GLOBAL_LIST_INIT(pizza_recipe,  list(
 	recipe = GLOB.pizza_recipe
 
 /obj/item/factory_part/pizza/copper_pizza
-	name = "unfinished /"meatlovers/" pizza"
+	name = "unfinished \"meatlovers\" pizza"
 	desc = "Wait, I dont think thats how you make pizza..."
 	result = /obj/item/reagent_containers/food/snacks/req_pizza/copper_pizza
 
